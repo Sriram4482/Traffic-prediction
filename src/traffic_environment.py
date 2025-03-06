@@ -1,7 +1,7 @@
 import googlemaps
 
 class TrafficEnvironment:
-    def __init__(self, api_key="AIzaSyC0CKSmvpDOZpAF8bCg6zUNVnOBueSghMI"):
+    def __init__(self, api_key="your goolge api key"):
         """Initialize the Traffic Environment with a Google Maps API Key."""
         self.gmaps = googlemaps.Client(key=api_key)
         print("TrafficEnvironment initialized!")
